@@ -221,3 +221,35 @@ __marimo__/
 # Enterprise env file (secrets) and generated run reports
 .env.enterprise
 reports/
+
+# ===== Added by vibe-audit fix =====
+node_modules/
+.pnp/
+.pnp.js
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env*.local
+.next/
+out/
+.cache/
+.turbo/
+.vercel/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+coverage/
+.nyc_output/
+*.tsbuildinfo
+next-env.d.ts
+*.sublime-project
+*.sublime-workspace
+.eslintcache
+*.pem
